@@ -444,13 +444,14 @@ h1 {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    margin-bottom: 5em;
 }
 .work_container .hr_line {
     display: none;
 }
 
 .work_grid {
-    width: 80%;
+    width: 60%;
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
@@ -464,6 +465,7 @@ h1 {
     height: 170px;
     margin: 5px 10px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     color: white;
@@ -473,7 +475,7 @@ h1 {
 .work_grid img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit:cover;
     z-index: 1;
 }
 
